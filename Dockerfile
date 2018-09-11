@@ -1,8 +1,8 @@
 # Step 1 - Pre-requisites Downloads
 # Create account in https://container-registry.oracle.com
 # Accept Terms and Conditions
-# docker login container-registry.oracle.com -u cse.praveen@gmail.com -p <Password>
-# docker pull container-registry.oracle.com/java/serverjre:8
+docker login container-registry.oracle.com -u cse.praveen@gmail.com -p Muruga009
+docker pull container-registry.oracle.com/java/serverjre:8
 
 FROM container-registry.oracle.com/java/serverjre:8
 LABEL maintainer "cse.praveen@gmail.com"
